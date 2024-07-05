@@ -3,9 +3,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "light-gray": "#f7f7f7",
-        "dark-gray": "#333",
+        "light-gray": "#333",
+        "dark-gray": "#999",
         "medium-gray": "#666",
+        "darker-gray": "#2c2c2c",
       },
       animation: {
         fadeIn: "fadeIn 0.3s ease-in-out",
