@@ -15,14 +15,7 @@ export default function RootLayout({
       <body className="bg-light-gray flex flex-col min-h-screen">
         <div className="flex-grow">{children}</div>
         <footer className="text-center text-gray-400 mt-4 p-4">
-          Made with ❤️ by{" "}
-          <a
-            href="https://github.com/Sour-abh-Raj/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Sourabh Raj
-          </a>
+          Made with ❤️ by Sourabh Raj
         </footer>
       </body>
     </html>

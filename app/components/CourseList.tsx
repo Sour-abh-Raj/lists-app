@@ -62,8 +62,8 @@ export default function CourseList() {
 
   return (
     <div className="flex justify-center items-center h-screen bg-light-gray">
-      <div className="flex justify-between items-center w-3/4 p-4 bg-darker-gray rounded-lg shadow-lg h-full">
-        <div className="w-2/5 p-4 bg-gray-800 rounded-lg max-h-full overflow-y-auto">
+      <div className="flex flex-col md:flex-row justify-between items-center w-3/4 p-4 bg-darker-gray rounded-lg shadow-lg h-full">
+        <div className="w-full md:w-2/5 p-4 bg-gray-800 rounded-lg max-h-full overflow-y-auto">
           <div className="flex flex-col h-full justify-between">
             <div>
               {courses.map((course) => (
@@ -131,7 +131,7 @@ export default function CourseList() {
             </div>
           </div>
         </div>
-        <div className="w-2/5 p-4 bg-gray-800 rounded-lg flex justify-center items-center max-h-full overflow-y-auto">
+        <div className="w-full md:w-2/5 p-4 bg-gray-800 rounded-lg flex justify-center items-center max-h-full overflow-y-auto mt-4 md:mt-0">
           {selectedTopic ? (
             <div className="text-center animate-fadeIn">
               <h1 className="text-2xl font-bold text-white">{`Course ${activeCourse}`}</h1>
